@@ -1,8 +1,0 @@
----
-- hosts: web1
-  become: True
-  tasks:
-  - name: Install Httpd module
-    yum:
-      name: httpd
-      state: installed
