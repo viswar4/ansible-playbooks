@@ -1,9 +1,0 @@
----
-- name: Ensure service is started
-  hosts: web1
-  tasks: 
-  - name: Ensure httpd service is started
-    service:
-      name: httpd
-      state: started 
-      enabled: true
